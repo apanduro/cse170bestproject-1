@@ -39,7 +39,44 @@
                 <b>
                     QUESTION: &nbsp;
                 </b>
-                WHAT MAKES PEOPLE SUCESSFUL AT PRIORITIZING TASKS?
+                How do people plan and prioritise their work activities?
+            </p>
+        </div>
+        <!connecting to Java>
+        
+        <p id = "question 1"></P>
+          <script>
+var questionText = '{
+  "Answer1":"People who prioritize tasks that are more meaningful are happier.",
+  "Answer2":"People who prioritize tasks that take less time appear to feel more accomplished.",
+  "Answer3":"People who do things in one sitting feel like they accomplish more."
+}';
+var obj = JSON.parse(text);
+
+document.getElementByID("question 1").innerHTML
+=
+obj.Answer1 + "<br>" +
+obj.Answer2 + "<br>" +
+obj.Answer3;
+</script>
+      
+
+
+
+
+        <div class="ui-field-contain" data-controltype="textinput">
+            <label for="textinput1">
+                ANSWER:
+            </label>
+            <input name="" id="textinput1" placeholder="" value="" type="text">
+        </div>
+
+        <div data-controltype="textblock">
+            <p>
+                <b>
+                    QUESTION: &nbsp;
+                </b>
+                What are the results from people who plan your actions?
             </p>
         </div>
         <div class="ui-field-contain" data-controltype="textinput">
@@ -48,6 +85,28 @@
             </label>
             <input name="" id="textinput1" placeholder="" value="" type="text">
         </div>
+
+        <div data-controltype="textblock">
+            <p>
+                <b>
+                    QUESTION: &nbsp;
+                </b>
+                What are the results of people who use time management techniques?
+            </p>
+        </div>
+        <!java access>
+        <div id="container">
+          <div id="output"> Question 1: </div>
+        </div>
+
+
+        <div class="ui-field-contain" data-controltype="textinput">
+            <label for="textinput1">
+                ANSWER:
+            </label>
+            <input name="" id="textinput1" placeholder="" value="" type="text">
+        </div>
+
         <div data-role="navbar" data-iconpos="top">
             <ul>
                 <li>
